@@ -1,0 +1,8 @@
+g++ -c pos.cpp
+g++ -c stack.cpp
+g++ -c window.cpp
+g++ -c grid.cpp
+g++ -c game.cpp
+g++ pos.o stack.o window.o grid.o game.o main.cpp -o main -lglut -lGL -lGLU
+rm *.o
+
